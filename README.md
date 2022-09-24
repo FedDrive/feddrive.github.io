@@ -82,6 +82,10 @@ mIoU &#177; std (%).
 | SiloBN + CFSI    | rainy       | 63.04 &#177; 0.31     | 50.54 &#177; 0.88     |
 | **SiloBN + LAB** | **rainy**   | **65.85 &#177; 0.91** | **53.99 &#177; 0.79** |
 
+#### Qualitative results in the heterogeneous scenarios for Cityscapes and for the two IDDA settings
+
+<img src="qualitatives.png" alt="drawing" width="1200"/>
+
 ### Server optimizers comparison on IDDA
 
 The *seen* and *unseen* columns refer to the results for the test client that contains images from the same training
