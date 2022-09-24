@@ -81,3 +81,36 @@ mIoU &#177; std (%).
 | SiloBN           | rainy       | 62.48 &#177; 1.42     | 50.03 &#177; 0.79     |
 | SiloBN + CFSI    | rainy       | 63.04 &#177; 0.31     | 50.54 &#177; 0.88     |
 | **SiloBN + LAB** | **rainy**   | **65.85 &#177; 0.91** | **53.99 &#177; 0.79** |
+
+### Server optimizers comparison on IDDA
+
+The *seen* and *unseen* columns refer to the results for the test client that contains images from the same training
+domains and to the test client that contains images from other domains, respectively. Results are reported in the form
+mIoU &#177; std (%).
+
+| Distribution      | Setting     | Method     | Optimizer   | seen                  | unseen                |
+|-------------------|-------------|------------|-------------|-----------------------|-----------------------|
+| uniform           | country     | FedAvg     | SGD         | 63.57 &#177; 0.60     | 49.74 &#177; 0.79     |
+| **uniform**       | **country** | **FedAvg** | **FedAvgM** | **71.27 &#177; 0.85** | **55.47 &#177; 1.07** |
+| uniform           | country     | FedAvg     | Adam        | 63.31 &#177; 0.37     | 50.21 &#177; 0.40     |
+| uniform           | country     | FedAvg     | AdaGrad     | 59.44 &#177; 0.94     | 46.09 &#177; 0.83     |
+| uniform           | rainy       | FedAvg     | SGD         | 62.72 &#177; 3.65     | 27.61 &#177; 2.80     |
+| **uniform**       | **rainy**   | **FedAvg** | **FedAvgM** | **70.99 &#177; 0.71** | **29.83 &#177; 2.03** |
+| uniform           | rainy       | FedAvg     | Adam        | 65.39 &#177; 0.52     | 31.72 &#177; 1.74     |
+| uniform           | rainy       | FedAvg     | AdaGrad     | 59.45 &#177; 1.30     | 27.80 &#177; 1.29     |
+| heterogeneous     | country     | FedAvg     | SGD         | 42.43 &#177; 1.78     | 40.01 &#177; 1.26     |
+| **heterogeneous** | **country** | **FedAvg** | **FedAvgM** | **44.38 &#177; 1.98** | **42.42 &#177; 2.15** |
+| heterogeneous     | country     | FedAvg     | Adam        | 39.93 &#177; 2.44     | 38.15 &#177; 1.89     |
+| heterogeneous     | country     | FedAvg     | AdaGrad     | 40.89 &#177; 2.05     | 38.03 &#177; 1.65     |
+| heterogeneous     | rainy       | FedAvg     | SGD         | 38.18 &#177; 1.40     | 26.75 &#177; 2.32     |
+| **heterogeneous** | **rainy**   | **FedAvg** | **FedAvgM** | **41.21 &#177; 1.98** | **31.91 &#177; 3.77** |
+| heterogeneous     | rainy       | FedAvg     | Adam        | 37.97 &#177; 2.04     | 28.47 &#177; 2.56     |
+| heterogeneous     | rainy       | FedAvg     | AdaGrad     | 39.02 &#177; 1.71     | 27.08 &#177; 2.85     |
+| heterogeneous     | country     | SiloBN     | SGD         | 58.82 &#177; 2.93     | 45.32 &#177; 0.90     |
+| **heterogeneous** | **country** | **SiloBN** | **FedAvgM** | **61.99 &#177; 1.51** | **46.20 &#177; 1.20** |
+| heterogeneous     | country     | SiloBN     | Adam        | 58.36 &#177; 1.26     | 42.31 &#177; 0.84     |
+| heterogeneous     | country     | SiloBN     | AdaGrad     | 48.97 &#177; 1.34     | 41.69 &#177; 1.31     |
+| **heterogeneous** | **rainy**   | **SiloBN** | **SGD**     | **62.48 &#177; 1.42** | **50.03 &#177; 0.79** |
+| **heterogeneous** | **rainy**   | **SiloBN** | **FedAvgM** | **63.69 &#177; 1.25** | **48.49 &#177; 1.04** |
+| heterogeneous     | rainy       | SiloBN     | Adam        | 61.51 &#177; 0.90     | 47.22 &#177; 0.89     |
+| heterogeneous     | rainy       | SiloBN     | AdaGrad     | 54.06 &#177; 1.29     | 45.80 &#177; 0.89     |
