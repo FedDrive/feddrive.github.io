@@ -20,13 +20,13 @@
 
 title: FedDrive - Generalizing Federated Learning to Semantic Segmentation in Autonomous Driving
 email: eros.fani@polito.it
-description: >- # this means to ignore newlines until "baseurl:"
-  Official website of the homonymous paper.
+# description: >- # this means to ignore newlines until "baseurl:"
+# Official website of the homonymous paper.
 # baseurl: "" # the subpath of your site, e.g. /blog
 # url: "" # the base hostname & protocol for your site, e.g. http://example.com
 # twitter_username: jekyllrb
 github_username: erosinho13
-show_downloads: True
+show_downloads: False
 
 # Build settings
 theme: jekyll-theme-cayman
