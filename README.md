@@ -42,42 +42,42 @@ Semantic Segmentation is essential to make self-driving vehicles autonomous, ena
 
 ## Source code
 
-PyTorch code for our paper is open-source and available on [https://github.com/Erosinho13/FedDrive](GitHub).
+PyTorch code for our paper is open-source and available on [GitHub](https://github.com/Erosinho13/FedDrive).
 
 ## Results
 
 ### Cityscapes
 
-| Method           | mIoU &pm; std (%)   |
-|------------------|---------------------|
-| FedAvg (uniform) | 45.71 &pm; 0.37     |
-| FedAvg           | 43.85 &pm; 1.24     |
-| FedAvg + CFSI    | 41.50 &pm; 0.98     |
-| FedAvg + LAB     | 39.20 &pm; 1.37     |
-| **SiloBN**       | **44.20 &pm; 1.43** |
-| SiloBN + CFSI    | 40.48 &pm; 1.40     |
-| SiloBN + LAB     | 42.23 &pm; 1.23     |
+| Method           | mIoU &#177; std (%)   |
+|------------------|-----------------------|
+| FedAvg (uniform) | 45.71 &#177; 0.37     |
+| FedAvg           | 43.85 &#177; 1.24     |
+| FedAvg + CFSI    | 41.50 &#177; 0.98     |
+| FedAvg + LAB     | 39.20 &#177; 1.37     |
+| **SiloBN**       | **44.20 &#177; 1.43** |
+| SiloBN + CFSI    | 40.48 &#177; 1.40     |
+| SiloBN + LAB     | 42.23 &#177; 1.23     |
 
 ### IDDA
 
 The *seen* and *unseen* columns refer to the results for the test client that contains images from the same training
 domains and to the test client that contains images from other domains, respectively. Results are reported in the form
-mIoU &pm; std (%).
+mIoU &#177; std (%).
 
-| Method           | Setting     | seen                | unseen              |
-|------------------|-------------|---------------------|---------------------|
-| FedAvg (uniform) | country     | 63.57 &pm; 0.60     | 49.74 &pm; 0.79     |
-| FedAvg           | country     | 42.43 &pm; 1.78     | 40.01 &pm; 1.26     |
-| FedAvg + CFSI    | country     | 54.70 &pm; 1.12     | 45.70 &pm; 1.73     |
-| FedAvg + LAB     | country     | 56.59 &pm; 0.90     | 45.68 &pm; 1.04     |
-| FedBN            | country     | 54.39               | -                   |
-| SiloBN           | country     | 58.82 &pm; 2.93     | 45.32 &pm; 0.90     |
-| SiloBN + CFSI    | country     | 61.22 &pm; 3.88     | 49.17 &pm; 1.01     |
-| **SiloBN + LAB** | **country** | **64.32 &pm; 0.76** | **50.43 &pm; 0.63** |
-| FedAvg           | rainy       | 62.72 &pm; 3.35     | 27.61 &pm; 2.80     |
-| FedAvg + CFSI    | rainy       | 38.18 &pm; 1.40     | 26.75 &pm; 2.32     |
-| FedAvg + LAB     | rainy       | 55.24 &pm; 1.65     | 31.05 &pm; 2.68     |
-| FedBN            | rainy       | 56.45               | -                   |
-| SiloBN           | rainy       | 62.48 &pm; 1.42     | 50.03 &pm; 0.79     |
-| SiloBN + CFSI    | rainy       | 63.04 &pm; 0.31     | 50.54 &pm; 0.88     |
-| **SiloBN + LAB** | **rainy**   | **65.85 &pm; 0.91** | **53.99 &pm; 0.79** |
+| Method           | Setting     | seen                  | unseen                |
+|------------------|-------------|-----------------------|-----------------------|
+| FedAvg (uniform) | country     | 63.57 &#177; 0.60     | 49.74 &#177; 0.79     |
+| FedAvg           | country     | 42.43 &#177; 1.78     | 40.01 &#177; 1.26     |
+| FedAvg + CFSI    | country     | 54.70 &#177; 1.12     | 45.70 &#177; 1.73     |
+| FedAvg + LAB     | country     | 56.59 &#177; 0.90     | 45.68 &#177; 1.04     |
+| FedBN            | country     | 54.39                 | -                     |
+| SiloBN           | country     | 58.82 &#177; 2.93     | 45.32 &#177; 0.90     |
+| SiloBN + CFSI    | country     | 61.22 &#177; 3.88     | 49.17 &#177; 1.01     |
+| **SiloBN + LAB** | **country** | **64.32 &#177; 0.76** | **50.43 &#177; 0.63** |
+| FedAvg           | rainy       | 62.72 &#177; 3.35     | 27.61 &#177; 2.80     |
+| FedAvg + CFSI    | rainy       | 38.18 &#177; 1.40     | 26.75 &#177; 2.32     |
+| FedAvg + LAB     | rainy       | 55.24 &#177; 1.65     | 31.05 &#177; 2.68     |
+| FedBN            | rainy       | 56.45                 | -                     |
+| SiloBN           | rainy       | 62.48 &#177; 1.42     | 50.03 &#177; 0.79     |
+| SiloBN + CFSI    | rainy       | 63.04 &#177; 0.31     | 50.54 &#177; 0.88     |
+| **SiloBN + LAB** | **rainy**   | **65.85 &#177; 0.91** | **53.99 &#177; 0.79** |
