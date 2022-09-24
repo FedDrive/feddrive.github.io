@@ -3,8 +3,8 @@
 **Official website** of [FedDrive: Generalizing Federated Learning to Semantic Segmentation
 in Autonomous Driving](https://arxiv.org/abs/2202.13670) 
 
-by **Lidia Fantauzzo**<sup>\*,1</sup>, **Eros Fanì**<sup>\*,1</sup>, Debora Caldarola<sup>1</sup>,
-Antonio Tavera<sup>1</sup>, Fabio Cermelli<sup>1,2</sup>, Marco Ciccone<sup>1</sup>, Barbara Caputo<sup>1</sup>. 
+by **Lidia Fantauzzo**<sup>\*,1</sup>, [**Eros Fanì**](https://scholar.google.com/citations?user=rwto7AgAAAAJ&hl=it)<sup>\*,1</sup>, [Debora Caldarola](https://scholar.google.com/citations?user=rX-VwlcAAAAJ&hl=it)<sup>1</sup>,
+[Antonio Tavera](https://scholar.google.com/citations?user=oQfTuXMAAAAJ&hl=it)<sup>1</sup>, [Fabio Cermelli](https://scholar.google.com/citations?user=-fEOFbMAAAAJ&hl=it)<sup>1,2</sup>, [Marco Ciccone](https://scholar.google.com/citations?user=hOQjblcAAAAJ&hl=it)<sup>1</sup>, [Barbara Caputo](https://scholar.google.com/citations?user=mHbdIAwAAAAJ&hl=it)<sup>1</sup>. 
 
 **Corresponding authors:** lidia.fantauzzo@studenti.polito.it, eros.fani@polito.it.
 
