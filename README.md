@@ -20,7 +20,7 @@ If you find our work relevant to your research, or use this code, please cite ou
 ```
 @inproceedings{feddrive2022,
   title={FedDrive: Generalizing Federated Learning to Semantic Segmentation in Autonomous Driving},
-  author={Fantauzzo, Lidia and Fani', Eros and Caldarola, Debora and Tavera, Antonio and Cermelli, Fabio and Ciccone, Marco and Caputo, Barbara},
+  author={Fantauzzo, Lidia and Fanì, Eros and Caldarola, Debora and Tavera, Antonio and Cermelli, Fabio and Ciccone, Marco and Caputo, Barbara},
   booktitle={Proceedings of the 2022 IEEE/RSJ International Conference on Intelligent Robots and Systems},
   year={2022}
 }
@@ -43,6 +43,13 @@ Semantic Segmentation is essential to make self-driving vehicles autonomous, ena
 ## Source code
 
 PyTorch code for our paper is open-source and available on [GitHub](https://github.com/Erosinho13/FedDrive).
+
+## Download of the datasets
+
+Download the Cityscapes dataset from [here](https://www.cityscapes-dataset.com/downloads/).
+You may need a new account if you do not have one yet. Download the ```gtFine_trainvaltest.zip``` and ```leftImg8bit_trainvaltest.zip```archives.
+
+Ask for the ```IDDA V3``` version of IDDA, available [here](https://idda-dataset.github.io/home/download/).
 
 ## Results
 
