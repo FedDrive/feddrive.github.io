@@ -55,15 +55,15 @@ Ask for the ```IDDA V3``` version of IDDA, available [here](https://idda-dataset
 
 ### Cityscapes
 
-| Method           | mIoU &#177; std (%)   |
-|------------------|-----------------------|
-| FedAvg (uniform) | 45.71 &#177; 0.37     |
-| FedAvg           | 43.85 &#177; 1.24     |
-| FedAvg + CFSI    | 41.50 &#177; 0.98     |
-| FedAvg + LAB     | 39.20 &#177; 1.37     |
-| **SiloBN**       | **44.20 &#177; 1.43** |
-| SiloBN + CFSI    | 40.48 &#177; 1.40     |
-| SiloBN + LAB     | 42.23 &#177; 1.23     |
+| Method           | mIoU &pm; std (%)   |
+|------------------|---------------------|
+| FedAvg (uniform) | 45.62 &pm; 1.25     |
+| FedAvg           | 43.33 &pm; 1.66     |
+| FedAvg + CFSI    | 40.55 &pm; 2.15     |
+| FedAvg + LAB     | 42.69 &pm; 2.07     |
+| SiloBN           | 52.86 &pm; 1.29     |
+| SiloBN + CFSI    | 52.11 &pm; 1.83     |
+| **SiloBN + LAB** | **53.37 &pm; 1.65** |
 
 ### IDDA
 
