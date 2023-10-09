@@ -27,6 +27,7 @@ email: eros.fani@polito.it
 # twitter_username: jekyllrb
 github_username: erosinho13
 show_downloads: False
+repository: FedDrive/feddrive.github.io
 
 # Build settings
 theme: jekyll-theme-cayman
