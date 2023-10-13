@@ -1,0 +1,107 @@
+.main-content table {
+    margin-left: auto;
+    margin-right: auto;
+    width: max-content;
+}
+
+header {
+    margin-top: 0;
+}
+
+#logo {
+    margin-top: -9rem;
+}
+
+header span {
+    font-family: "Founders Grotesk Condensed", serif;
+    width: max-content;
+    font-size: 20pt;
+    display: table;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3rem;
+    text-align: center;
+}
+
+@media only screen and (max-width: 968px) {
+    header span {
+        width: 100%;
+    }
+
+    .main-content table {
+        width: 100%;
+    }
+}
+
+.page-header {
+    background-image: linear-gradient(180deg, lightgrey, white);
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    display: flow;
+    height: 170px;
+}
+
+.project-name {
+    display: none;
+}
+
+.btn {
+    display: none;
+}
+
+.main-content {
+    max-width: 80rem;
+}
+
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+span.uniform {
+    color: green;
+}
+
+span.heterogeneous {
+    color: darkblue;
+}
+
+span.imbalance {
+    color: darkred;
+}
+
+span.country {
+    color: saddlebrown;
+}
+
+span.rainy {
+    color: slategrey;
+}
+
+span.bus {
+    color: royalblue;
+}
+
+h2 {
+    display: inline-block;
+    font-weight: normal;
+    font-size: 22pt;
+    color: #159957;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.go_top {
+    float: right;
+    display: inline;
+    font-weight: normal;
+    font-size: 22pt;
+    color: #159957;
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+}
+
+.main-content .table_max {
+    width: 100%;
+}
