@@ -40,7 +40,7 @@ All the authors are supported by Politecnico di Torino, Turin, Italy.
 If you find our work relevant to your research or use our code, please cite our papers:
 
 ```
-@article{feddrivev2,
+@inproceedings{feddrive2023,
   title={FedDrive v2: an Analysis of the Impact of Label Skewness in Federated Semantic Segmentation for Autonomous Driving},
   author={Fanì, Eros and Ciccone, Marco and Caputo, Barbara},
   journal={5th Italian Conference on Robotics and Intelligent Machines (I-RIM)},
