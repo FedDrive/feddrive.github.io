@@ -6,10 +6,10 @@
   <span>A FEDERATED LEARNING BENCHMARK FOR SEMANTIC SEGMENTATION IN AUTONOMOUS DRIVING</span>
 </header>
 
-<hr />
-
 [How to cite us](#cite-us) / [Summary](#summary) / [Code](#code) / [Dataset](#dataset)
 / [Results](#results)
+
+<hr />
 
 <div id="top"></div>
 
