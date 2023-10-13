@@ -13,8 +13,6 @@
 
 <div id="top"></div>
 
-## FedDrive: A Federated Learning benchmark for Autonomous Driving Semantic Segmentation
-
 **Official website** of:
 - [E. Fanì](https://scholar.google.com/citations?user=rwto7AgAAAAJ&hl=it), [M. Ciccone](https://scholar.google.com/citations?user=hOQjblcAAAAJ&hl=it), [B. Caputo](https://scholar.google.com/citations?user=mHbdIAwAAAAJ&hl=it). [**FedDrive v2: an Analysis of the Impact of Label Skewness in 
   Federated Semantic Segmentation for Autonomous Driving**](https://arxiv.org/abs/2309.13336). _5th Italian Conference on Robotics and Intelligent
