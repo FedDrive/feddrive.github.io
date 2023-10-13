@@ -12,7 +12,7 @@ header {
     margin-top: -9rem;
 }
 
-.sub-title {
+header .sub-title {
     width: 80%;
     display: table;
     margin: 1rem auto 3rem;
