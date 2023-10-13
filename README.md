@@ -1,5 +1,6 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <link href="style.css" rel="stylesheet" />
+<div id="top" style="margin-top: -10rem"></div>
 
 <header>
   <img id="logo" class="center" src="feddrive_logo.png" alt="drawing"/>
@@ -10,8 +11,6 @@
 / [Results](#results)
 
 <hr />
-
-<div id="top"></div>
 
 **Official website** of:
 - [E. Fanì](https://scholar.google.com/citations?user=rwto7AgAAAAJ&hl=it), [M. Ciccone](https://scholar.google.com/citations?user=hOQjblcAAAAJ&hl=it), [B. Caputo](https://scholar.google.com/citations?user=mHbdIAwAAAAJ&hl=it). [**FedDrive v2: an Analysis of the Impact of Label Skewness in 
