@@ -3,7 +3,7 @@
 
 <header>
   <img id="logo" class="center" src="feddrive_logo.png" alt="drawing"/>
-  <span>A FEDERATED LEARNING BENCHMARK FOR SEMANTIC SEGMENTATION IN AUTONOMOUS DRIVING</span>
+  <img class="subtitle" src="subtitle.png" alt="drawing"/>
 </header>
 
 [How to cite us](#cite-us) / [Summary](#summary) / [Code](#code) / [Dataset](#dataset)

@@ -12,13 +12,10 @@ header {
     margin-top: -9rem;
 }
 
-header span {
-    font-family: "Founders Grotesk Condensed", serif;
-    width: max-content;
-    font-size: 20pt;
+.subtitle {
+    width: 80%;
     display: table;
     margin: 1rem auto 3rem;
-    text-align: center;
 }
 
 @media only screen and (max-width: 968px) {
@@ -27,6 +24,10 @@ header span {
     }
 
     .main-content table {
+        width: 100%;
+    }
+
+    .main-content .subtitle {
         width: 100%;
     }
 }
